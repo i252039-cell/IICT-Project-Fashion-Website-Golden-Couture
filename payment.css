@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.row input {
+    width: 60%;
+    padding: 7px;
+    border: 1px solid grey;
+}
+
+.paybox {
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+#btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #eecfa1;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

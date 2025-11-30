@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Golden Couture</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="logo">
+            <h1>GOLDEN<br><span>COUTURE</span></h1>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="topsellers.html">Top Sellers</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </div>
+
+     
+
+    <div class="hero">
+        <div class="catbox">
+            <img src="women.jpeg" alt="Women">
+            <h3>Women</h3>
+        </div>
+        <div class="catbox">
+            <img src="men.jpeg" alt="Men">
+            <h3>Men</h3>
+        </div>
+        <div class="catbox">
+            <img src="kids.jpeg" alt="Kids">
+            <h3>Kids</h3>
+        </div>
+    </div>
+
+    <div class="banner">
+        <h2>LUXURY FASHION ONLINE STORE</h2>
+        <button class="shopbtn" onclick="goToCategories()">Shop Now</button>
+    </div>
+
+    <h2 style="text-align: center;">Featured Products</h2>
+
+    <div class="items">
+        <div class="itembox">
+            <img src="women trench coat.jpeg" alt="Coat">
+            <p>Women Trench Coat</p>
+            <p>Rs 5000</p>
+            <button class="addbtn" onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="itembox">
+            <img src="men sweater.jpeg" alt="Sweater">
+            <p>Men Sweater</p>
+            <p>Rs 3000</p>
+            <button class="addbtn" onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="itembox">
+            <img src="men blazzer.jpeg" alt="Blazer">
+            <p>Men Blazers</p>
+            <p>Rs 4000</p>
+            <button class="addbtn" onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="itembox">
+            <img src="men trench coat.jpeg" alt="Coat">
+            <p>Men Trench Coat</p>
+            <p>Rs 6000</p>
+            <button class="addbtn" onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Phone: +1 (800) 555-0199 | Email: info@goldencouture.com</p>
+        <p>Address: 123 Luxury Lane, Fashion City, USA</p>
+    </div>
+
+    <script>
+        function goToCategories() {
+            console.log("Shop Now Button Clicked");
+            window.location.href = "categories.html";
+        }
+
+        function addToCart() {
+            alert("Item added to cart successfully!");
+        }
+
+    </script>
+
+</body>
+</html>

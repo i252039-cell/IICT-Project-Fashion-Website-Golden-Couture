@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Sellers - Golden Couture</title>
+    <link rel="stylesheet" href="topsellers.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo"><h1>GOLDEN<br><span>COUTURE</span></h1></div>
+        <div class="navlinks">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="topsellers.html" class="active">Top Sellers</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </div>
+
+    
+     <div class="cartbuttoncontainer">
+        <button onclick="goToCart()" class="cartbtn">Go to Cart</button>
+    </div>
+
+
+    <h2 style="text-align: center;">Top Sellers</h2>
+
+    <div class="gridcontainer">
+        <div class="card">
+            <img src="greenshirt.jpeg" alt="Polo">
+            <h3>Men's Cotton Polo</h3>
+            <p>Rs 1899</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="brownpolo.jpeg" alt="Shirt">
+            <h3>Women's Shirt</h3>
+            <p>Rs 1899</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="bluehoodie.jpeg" alt="Hoodie">
+            <h3>Women's Hoodie</h3>
+            <p>Rs 1899</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+    <div class="footer">
+    <p>Phone: +1 (800) 555-0199 | Email: info@goldencouture.com</p>
+    <p>Address: 123 Luxury Lane, Fashion City, USA</p>
+</div>
+
+    
+    <script>
+        function addToCart() {
+            alert("Item added to cart successfully!");
+        }
+        
+        function goToCart()
+        {
+
+            window.location.href="cart.html";
+            console.log("Cart Button is Opened Successfully");
+
+
+        }
+    </script>
+
+</body>
+</html>
